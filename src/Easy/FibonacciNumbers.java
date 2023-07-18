@@ -5,7 +5,7 @@ public class FibonacciNumbers {
         System.out.println(fib(4));
     }
 
-    public int fib(int n) {
+    public static int fib(int n) {
         int last = 1;
         int predLast = 0;
 
