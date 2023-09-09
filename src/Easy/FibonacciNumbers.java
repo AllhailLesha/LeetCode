@@ -1,9 +1,16 @@
 package Easy;
 
+import java.time.LocalDateTime;
+
 public class FibonacciNumbers {
     public static void main(String[] args) {
-        System.out.println(fib(100));
+        System.out.println(LocalDateTime.now());
+        System.out.println(fib(10000000  ));
+        System.out.println(LocalDateTime.now());
+
     }
+
+
 
     public static long fib(int n) {
         long last = 1;
